@@ -1,0 +1,24 @@
+/*  스타일 초기화 작업 */
+/* 
+    - 폰트
+    - 초기화 (reset)
+    - css 변수 선언
+*/
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: inherit;}
+body{
+    font-family: "Nanum Pen Script", serif;
+    font-size: var(--font-size-main);
+}
+
+ul { list-style-type: none;}
+a { text-decoration: none; color : black; font-weight: bold;}
+a:hover:not(.btn) { text-decoration: underline;}
+img { width: 100%;}
+button { cursor: pointer; margin-bottom: 10px;}
+hr { margin-bottom: 10px;}
+
+:root {
+    --font-size-main: 20px
+}
